@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import Summary from './Summary/Summary'
 import Feature from './Features/Features'
-import Total from './Total/Total'
+import MainSummary from './MainSummary/MainSummary'
 import './App.css';
+import SummaryOption from './Summary/SummaryOption';
 
 class App extends Component {
   state = {
@@ -42,8 +42,8 @@ render() {
       </header>
       <main>
         <Feature features={this.props.features} selected={this.state.selected} updateFeature={this.updateFeature} />
-        <Summary selected={this.state.selected} />
-        <Total />
+        <SummaryOption selected={this.state.selected} />
+        <MainSummary selected={this.state.selected} />
       </main>
     </div>
   )

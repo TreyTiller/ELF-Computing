@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Total extends React.Component {
+class MainSummary extends React.Component {
 
 render() {
 
@@ -29,4 +29,4 @@ render() {
 }
 }
 
-export default Total;
+export default MainSummary;

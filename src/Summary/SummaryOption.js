@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 
 
-class Summary extends Component {
+class SummaryOption extends Component {
 
   render() {
 
@@ -46,4 +46,4 @@ class Summary extends Component {
   }
 }
 
-export default Summary;
+export default SummaryOption;
